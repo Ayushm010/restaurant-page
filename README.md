@@ -1,1 +1,3 @@
-# restaurant-page
+# The Odin Project-->10 Restaurant Page
+
+At first, I thought doing this project with all the webpack stuff would be tough, but it actually wasn’t. Ended up having a really good time working on it. Webpack is still kinda confusing (because… it is), but it’s definitely manageable. Learned a lot from this project. The UI is pretty basic for now—will improve it later since the main focus here was more on JavaScript than design.
