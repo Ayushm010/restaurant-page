@@ -4,13 +4,17 @@
 }
 
 body {
-    background-color: aqua;
-   
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: fixed;    background-color: #004D98;
     display: grid;
-    color: black;
+    color: white;
     display: grid;
     justify-content: center;
     align-items: center;
+    font-family: cursive;
+
 }
 
 img {
@@ -21,20 +25,21 @@ img {
 .main-grid {
     max-width: 100vh;
     height: 100vh;
-    font-family: cursive;
     font-size: 2em;
     font-weight: bolder;
     display: grid;
     grid-template-rows: 1fr 4fr;
-    gap: 2em;
+    gap: 1em;
     justify-content: center;
     align-content: space-between;
 }
 
-header{
+header {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
+
+
 .main-grid img {
     height: 70px;
     width: 80px;
@@ -44,31 +49,35 @@ header{
 #content {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: black;
-    border-radius: 8px;
+    border-radius: 3%;
     font-size: 0.8em;
     opacity: 0.8;
     color: white;
+
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+
+    padding: 1.5em;
+
 }
 
 .info-block {
-    font-size: 0.5em;
+    font-size: 0.8em;
     font-weight: 900;
-    border: 2px solid black;
     display: flex;
+    flex-direction: column;
+    gap: 1em;
 
 }
 
 button {
-    background-color: #4CAF50; /* Green */
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 0.6em;
+    font-size: 0.5em;
     cursor: pointer;
+    font-family: cursive;
 }
